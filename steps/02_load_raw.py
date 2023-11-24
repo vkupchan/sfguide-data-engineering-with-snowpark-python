@@ -74,6 +74,7 @@ if __name__ == "__main__":
 
     from utils import snowpark_utils
     session = snowpark_utils.get_snowpark_session()
+    
 
     load_all_raw_tables(session)
 #    validate_raw_tables(session)
